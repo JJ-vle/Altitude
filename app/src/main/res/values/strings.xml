@@ -1,0 +1,198 @@
+<resources>
+    <string name="app_name">Altitude</string>
+    <string name="conseils">Conseils</string>
+    <string name="list_products">Liste des produits</string>
+    <string name="actus">Actualités</string>
+
+    <string name="PRODUCT_KEY">produit</string>
+    <string name="prix">9,99 €</string>
+    <string name="nomProduit">Nom produit</string>
+    <string name="descProduit">Description produit</string>
+    <string name="titreProduit">Produit</string>
+    <string name="titreActualites">Actualités</string>
+    <string name="star">★</string>
+
+    <string-array name="mountain_products">
+        <item>Lampe frontale NightBeam</item>
+        <item>Gants thermiques Jacons FrostShield</item>
+        <item>GPS Garmin Etrex</item>
+        <item>Tapis de sol AllWeather Pro</item>
+        <item>Batons de randonnee FlexTrail</item>
+        <item>Casque d\'escalade Petzl SummitSafe</item>
+        <item>Masque de ski SnowVision</item>
+        <item>Corde d\'escalade Beal 80m</item>
+        <item>Couteau multifonction Coocheer</item>
+        <item>Sac à dos Norrona Falketind 35L</item>
+        <item>Sac de couchage ArcticDream 2</item>
+        <item>Sac à dos Osprey Dragonfly 34</item>
+        <item>Veste StormGuard Highgate</item>
+        <item>Veste Bellagio M</item>
+        <item>Veste Quechua MH150</item>
+        <item>Pantallon Norrona Falketind Flex1</item>
+        <item>Pantallon Eider Rove Zipoff</item>
+        <item>Pantallon Ortovox Vajolet</item>
+        <item>Chaussures Millet XB28</item>
+        <item>Crampons Petzl Leverlock</item>
+        <item>Chaussures Scarpa Ribelle HD</item>
+        <item>Tente Salewa UltraLight</item>
+        <item>Tente Camp Minima 3 Evo</item>
+        <item>Tente Ferrino Nemesi 2 Pro</item>
+    </string-array>
+
+    <string-array name="product_categories">
+        <item>ACCESSORIES</item>
+        <item>ACCESSORIES</item>
+        <item>ACCESSORIES</item>
+        <item>ACCESSORIES</item>
+        <item>ACCESSORIES</item>
+        <item>ACCESSORIES</item>
+        <item>ACCESSORIES</item>
+        <item>ACCESSORIES</item>
+        <item>ACCESSORIES</item>
+        <item>BACKPACK</item>
+        <item>BACKPACK</item>
+        <item>BACKPACK</item>
+        <item>JACKET</item>
+        <item>JACKET</item>
+        <item>JACKET</item>
+        <item>PANTS</item>
+        <item>PANTS</item>
+        <item>PANTS</item>
+        <item>SHOES</item>
+        <item>SHOES</item>
+        <item>SHOES</item>
+        <item>TENT</item>
+        <item>TENT</item>
+        <item>TENT</item>
+    </string-array>
+
+    <string-array name="product_pictures">
+        <item>accessories_lampe_torche_nightbeam</item>
+        <item>accessories_gants_jacons_frostshield</item>
+        <item>accessories_gps_garmin_etrex</item>
+        <item>accessories_tapis_allweather_pro</item>
+        <item>accessories_batons_randonnee</item>
+        <item>accessories_casque_escalade_petzl_summitsafe</item>
+        <item>accessories_masque_snowvision</item>
+        <item>accessories_corde_beal_80m</item>
+        <item>accessories_couteau_coocheer</item>
+        <item>backpack_norrona_faltekind_35l</item>
+        <item>backpack_articdream_2</item>
+        <item>backpack_osprey_dragonfly_34</item>
+        <item>jacket_stromguard_highgate</item>
+        <item>jacket_bellagio_m</item>
+        <item>jacket_quechua_mh150</item>
+        <item>pants_norrona_falketind_flex_1</item>
+        <item>pants_eider_rove_zipoff</item>
+        <item>pants_ortovox_vajollet</item>
+        <item>shoes_millet_xb28</item>
+        <item>shoes_petzl_leverlock</item>
+        <item>shoes_scarpe_ribelle_hd</item>
+        <item>tent_salewa_ultralight</item>
+        <item>tent_camp_minima_3_evo</item>
+        <item>tent_ferrino_nemesi_2_pro</item>
+    </string-array>
+
+
+    <string-array name="product_values">
+        <item>3.51</item> <!-- Lampe frontale NightBeam -->
+        <item>4.15</item> <!-- Gants thermiques Jacons FrostShield -->
+        <item>3.28</item> <!-- GPS Garmin Etrex -->
+        <item>4.12</item> <!-- Tapis de sol AllWeather Pro -->
+        <item>2.57</item> <!-- Bâtons de randonnée FlexTrail -->
+        <item>3.14</item> <!-- Casque d'escalade Petzl SummitSafe -->
+        <item>2.95</item> <!-- Masque de ski SnowVision -->
+        <item>4.37</item> <!-- Corde d'escalade Beal 80m -->
+        <item>3.60</item> <!-- Couteau multifonction Coocheer -->
+        <item>3.86</item> <!-- Sac à dos Norrona Falketind 35L -->
+        <item>3.45</item> <!-- Sac de couchage ArcticDream 2 -->
+        <item>2.75</item> <!-- Sac à dos Osprey Dragonfly 34 -->
+        <item>3.09</item> <!-- Veste StormGuard Highgate -->
+        <item>3.68</item> <!-- Veste Bellagio M -->
+        <item>3.50</item> <!-- Veste Quechua MH150 -->
+        <item>4.02</item> <!-- Pantallon Norrona Falketind Flex1 -->
+        <item>3.90</item> <!-- Pantallon Eider Rove Zipoff -->
+        <item>3.20</item> <!-- Pantallon Ortovox Vajolet -->
+        <item>4.15</item> <!-- Chaussures Millet XB28 -->
+        <item>3.98</item> <!-- Crampons Petzl Leverlock -->
+        <item>4.25</item> <!-- Chaussures Scarpa Ribelle HD -->
+        <item>3.56</item> <!-- Tente Salewa UltraLight -->
+        <item>3.74</item> <!-- Tente Camp Minima 3 Evo -->
+        <item>3.20</item> <!-- Tente Ferrino Nemesi 2 Pro -->
+    </string-array>
+
+    <string-array name="product_prices">
+        <item>14.99</item> <!-- Lampe frontale NightBeam -->
+        <item>24.99</item> <!-- Gants thermiques Jacons FrostShield -->
+        <item>99.75</item> <!-- GPS Garmin Etrex -->
+        <item>59.48</item> <!-- Tapis de sol AllWeather Pro -->
+        <item>15.78</item> <!-- Bâtons de randonnée FlexTrail -->
+        <item>29.49</item> <!-- Casque d'escalade Petzl SummitSafe -->
+        <item>14.99</item> <!-- Masque de ski SnowVision -->
+        <item>175.95</item> <!-- Corde d'escalade Beal 80m -->
+        <item>17.69</item> <!-- Couteau multifonction Coocheer -->
+        <item>49.99</item> <!-- Sac à dos Norrona Falketind 35L -->
+        <item>69.56</item> <!-- Sac de couchage ArcticDream 2 -->
+        <item>98.35</item> <!-- Sac à dos Osprey Dragonfly 34 -->
+        <item>75.99</item> <!-- Veste StormGuard Highgate -->
+        <item>69.39</item> <!-- Veste Bellagio M -->
+        <item>50.00</item> <!-- Veste Quechua MH150 -->
+        <item>112.00</item> <!-- Pantallon Norrona Falketind Flex1 -->
+        <item>72.25</item> <!-- Pantallon Eider Rove Zipoff -->
+        <item>117.00</item> <!-- Pantallon Ortovox Vajolet -->
+        <item>45.99</item> <!-- Chaussures Millet XB28 -->
+        <item>56.49</item> <!-- Crampons Petzl Leverlock -->
+        <item>98.99</item> <!-- Chaussures Scarpa Ribelle HD -->
+        <item>112.49</item> <!-- Tente Salewa UltraLight -->
+        <item>350.00</item> <!-- Tente Camp Minima 3 Evo -->
+        <item>285.00</item> <!-- Tente Ferrino Nemesi 2 Pro -->
+    </string-array>
+
+    <string-array name="product_descriptions">
+        <item>Une lampe frontale puissante avec différents modes d\'éclairage pour la navigation nocturne.</item>
+        <item>Des gants chauds et résistants au vent, parfaits pour les conditions hivernales.</item>
+        <item>Un GPS fiable et précis pour la navigation en montagne.</item>
+        <item>Un tapis de sol imperméable et résistant pour protéger votre équipement de l\'humidité.</item>
+        <item>Des bâtons de randonnée légers et ajustables pour un soutien supplémentaire sur les sentiers.</item>
+        <item>Un casque d\'escalade durable et sécuritaire, offrant une protection essentielle lors de l\'escalade.</item>
+        <item>Un masque de ski élégant et performant, offrant une vision claire par tous les temps.</item>
+        <item>Une corde d\'escalade haut de gamme, conçue pour la résistance et la durabilité.</item>
+        <item>Un couteau polyvalent avec plusieurs outils intégrés, essentiel pour les situations d\'urgence en montagne.</item>
+        <item>Un sac à dos spacieux et ergonomique, conçu pour les randonnées de plusieurs jours.</item>
+        <item>Un sac de couchage isolant et confortable, adapté aux conditions extrêmes de température.</item>
+        <item>Adapté à tous les terrains, escalade de rocher, cascade de glace ou alpinisme, le Dragonfly conserve un ratio efficacité/poids incomparable.</item>
+        <item>Une veste imperméable et respirante, offrant une protection optimale contre les intempéries.</item>
+        <item>La veste homme urbaine Bellagio est le compagnon idéal pour vos aventures en plein air. Légère, imperméable, respirante et coupe-vent, elle vous offre tout le confort et la protection dont vous avez besoin.</item>
+        <item>La veste de pluie de randonnée Quechua MH150 est parfaite les randonneurs débutants et occasionnels. En effet, elle assure une bonne protection contre la pluie malgré sa légèreté et son prix attractif.</item>
+        <item>Polyvalent, ce pantalon fabriqué en flex1, matière softshell souple, se dote de renforts à l\'assise, aux genoux et en bas de jambes, pour une résistance et une protection face au vent et aux averses optimisées.</item>
+        <item>Conçu dans un tissu léger, stretch et à séchage rapide, ce pantalon vous accompagnera dans toutes vos activités de plein air cet été. Commencez la journée avec le pantalon complet pour vous protéger du froid matinal, puis détachez les parties inférieures pour rester au frais une fois que les températures augmentent.</item>
+        <item>Ce bas léger et respirant, est également très robuste. Ainsi, vous bénéficiez d\'une grande durabilité dans le temps et d\'une excellente résistance à l\'abrasion sur les parois rocheuses les plus raides.</item>
+        <item>Des chaussures confortables, parfaites pour les longues randonnées sportives.</item>
+        <item>Des crampons robustes pour une traction maximale sur la glace et la neige.</item>
+        <item>La Ribelle HD se destine à une pratique polyvalente entre alpinisme, trekking technique et via ferrata. On la verrait bien aux pieds de guides de haute-montagne ou tout simplement de passionnés de montagne.</item>
+        <item>Une tente ultralégère et résistante, idéale pour les aventures en montagne.</item>
+        <item>Bien pensée, cette tente dispose de deux grandes entrées et deux belles absides pour circuler facilement et moins se gêner. Cela offre également plus de place pour ranger les sacs.</item>
+        <item>La Nemesi 2 Pro est une tente facile à monter et solide grâce à son armature en aluminium trempé. Cette même armature la rend légère.</item>
+    </string-array>
+
+    <string-array name="names_news">
+        <item>Inoxtag se lance dans l\'ascension de l\'Everest</item>
+        <item>Une nouvelle espèce de chèvre découverte sur le mont K2</item>
+        <item>Avalanche à Zermatt : 3 skieurs décédés</item>
+    </string-array>
+
+    <string-array name="descriptions_news">
+        <item>Kathmandu, Népal - Le célèbre vidéaste français Inoxtag a débuté son aventure ultime en entreprenant l\'ascension du mont Everest, le plus haut sommet du monde.
+            Accompagné d\'une équipe de guides chevronnés, Inoxtag a quitté le camp de base, prêt à affronter les défis redoutables de l\'Himalaya.
+            Sa décision audacieuse de gravir le pic emblématique témoigne de son courage et de sa détermination à relever des défis extraordinaires.
+            Suivez l\'épopée d\'Inoxtag alors qu\'il défie les éléments et se rapproche du sommet mythique du mont Everest.</item>
+        <item>Skardu, Pakistan - Une expédition récente dans les régions élevées du mont K2 a abouti à une découverte étonnante : une nouvelle espèce de chèvre a été identifiée par les chercheurs.
+            Ces chèvres inhabituelles, dotées de cornes imposantes, ont été observées évoluant avec agilité dans les terrains escarpés et inhospitaliers des pentes du mont K2.
+            Cette découverte suscite l\'excitation parmi les scientifiques et ouvre de nouvelles perspectives sur la biodiversité de la région montagneuse du Karakoram.</item>
+        <item>Zermatt, Suisse - Une avalanche survenue hier après-midi à Zermatt a emporté la vie de trois skieurs.
+            Les autorités locales ont déclaré que les conditions météorologiques instables des derniers jours ont probablement déclenché cette tragédie.
+            Les équipes de secours ont été dépêchées sur place, mais malheureusement, les skieurs n\'ont pas survécu. Une enquête est en cours pour déterminer les causes exactes de l\'avalanche.
+            Restez informé pour les dernières mises à jour.</item>
+    </string-array>
+
+</resources>

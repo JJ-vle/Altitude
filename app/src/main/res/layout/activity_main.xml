@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <!-- LinearLayout pour le logo -->
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Logo de l'application -->
+        <ImageView
+            android:id="@+id/imageLogo"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_altitude_logo_simple"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </LinearLayout>
+
+    <!-- LinearLayout pour les boutons de catégories -->
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <!-- ImageButton pour la catégorie "Accessoires" -->
+        <ImageButton
+            android:id="@+id/boutonCategorie1_Accessoires"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginEnd="10dp"
+            android:padding="2dp"
+            android:background="@color/green"
+            android:scaleType="centerCrop"
+            android:src="@drawable/accessories_icon" />
+
+        <!-- ImageButton pour la catégorie "Sacs à dos" -->
+        <ImageButton
+            android:id="@+id/boutonCategorie2_Sacs"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="10dp"
+            android:padding="2dp"
+            android:background="@color/green"
+            android:scaleType="centerCrop"
+            android:src="@drawable/backpack_icon" />
+
+    </LinearLayout>
+
+    <!-- LinearLayout pour les boutons de catégories -->
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/boutonActus"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout1"
+        tools:layout_editor_absoluteX="10dp">
+
+        <!-- ImageButton pour la catégorie "Vestes" -->
+        <ImageButton
+            android:id="@+id/boutonCategorie3_Vestes"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginEnd="10dp"
+            android:padding="2dp"
+            android:background="@color/green"
+            android:scaleType="centerCrop"
+            android:src="@drawable/jacket_icon" />
+
+        <!-- ImageButton pour la catégorie "Pantalons" -->
+        <ImageButton
+            android:id="@+id/boutonCategorie4_Pantalons"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="10dp"
+            android:padding="2dp"
+            android:background="@color/green"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pants_icon" />
+
+    </LinearLayout>
+
+    <!-- LinearLayout pour les boutons de catégories -->
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <!-- Bouton pour la catégorie "Chaussures" -->
+        <ImageButton
+            android:id="@+id/boutonCategorie5_Chaussures"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginEnd="10dp"
+            android:padding="2dp"
+            android:background="@color/green"
+            android:scaleType="centerCrop"
+            android:src="@drawable/shoes_icon" />
+
+        <!-- Bouton pour la catégorie "Tentes" -->
+        <ImageButton
+            android:id="@+id/boutonCategorie6_Tentes"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="10dp"
+            android:padding="2dp"
+            android:background="@color/green"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tent_icon" />
+
+    </LinearLayout>
+
+    <!-- Bouton pour afficher les actualités -->
+    <Button
+        android:id="@+id/boutonActus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="@color/green"
+        android:text="Actualités"
+        app:cornerRadius="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
